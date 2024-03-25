@@ -11,7 +11,7 @@ spring:
           lower-case-service-id: true
 eureka:
   instance:
-    hostname: localhost
+    hostname: eurekaserver
   client:
     service-url:
-      defaultZone: http://localhost:47073/eureka
+      defaultZone: http://eurekaserver:47073/eureka
